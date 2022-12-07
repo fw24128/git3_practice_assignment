@@ -1,3 +1,4 @@
+
 let factor=0;
 for(i=1;i<=num;i++)
 {
@@ -13,4 +14,3 @@ for(i=1;i<=num;i++)
  else
 {
    console.log("Not a Prime Number");
-}
