@@ -1,7 +1,17 @@
-for(i=1;i<num;i++)
+let count =0;
+for(i=1;i<=num;i++)
+
 {
-   if(1%2==0)
+   if(num%i==0)
     {
-      console.log(num)
+      count++;
     }
+}
+if (count==2)
+{
+console.log("Yes")
+}
+else 
+{
+console.log("No")
 }
