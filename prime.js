@@ -1,7 +1,16 @@
-for(i=1;i<num;i++)
+let factor=0;
+for(i=1;i<=num;i++)
 {
-   if(1%2==0)
+   if(num%i==0)
     {
-      console.log(num)
+      factor++
     }
+}
+ if(factor==2)
+{
+   console.log("Prime Number");
+}
+ else
+{
+   console.log("Not a Prime Number");
 }
